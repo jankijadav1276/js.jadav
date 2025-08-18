@@ -52,3 +52,35 @@ console.log(Object.values(tinderUser)); // gives value of keys in form of array
 console.log(Object.entries(tinderUser));// convert keys and values in array then store in another array
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+//destructuring
+
+const course ={
+    coursename: "js",
+    price: 999,
+    courseInsructor:  "hitesh"
+}
+
+// course.courseInsructor
+const {courseInsructor: CI} = course
+
+// console.log(courseInsructor);
+console.log(CI);
+
+// const navbar = ({company}) =>{
+
+// }
+// navbar(company = "hitesh")// it is for REACT
+
+// {
+//     "name": "janki",
+//     "coursename": "js",
+//     "price": "Free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
