@@ -73,6 +73,8 @@ console.log(CI);
 // }
 // navbar(company = "hitesh")// it is for REACT
 
+
+//JSON
 // {
 //     "name": "janki",
 //     "coursename": "js",
